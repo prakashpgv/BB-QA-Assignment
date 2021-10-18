@@ -1,0 +1,10 @@
+How to Run:
+1. Install node js globally
+2. Checkout the code from repo
+3. Import the code into Visual Studio Code
+4. Install Protractor in terminal using npm command
+5. Install protractor-beautiful-reporter using npm command
+6. Install protractor-html-reporter-2 using npm command
+7. Install jasmine2-protractor-utils using npm command
+8. Go to conf folder structure on terminal
+9. Use the following Run Command - protractor conf.js
