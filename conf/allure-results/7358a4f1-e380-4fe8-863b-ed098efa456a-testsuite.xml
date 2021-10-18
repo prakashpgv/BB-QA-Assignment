@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1634544011439' stop='1634544013043'>
+    <name>SignIn Test</name>
+    <title>SignIn Test</title>
+    <test-cases>
+        <test-case start='1634544011439' status='passed' stop='1634544013042'>
+            <name>SignIn Test</name>
+            <title>SignIn Test</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='85690478-b422-407a-8238-fca67a9ad4ac-attachment.png' type='image/png' size='41017'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

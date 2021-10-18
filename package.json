@@ -1,0 +1,33 @@
+{
+  "name": "protractornew",
+  "version": "1.0.0",
+  "description": "protractornew",
+  "main": "HandleMultipleWindows.js",
+  "dependencies": {
+    "exceljs": "^1.7.0",
+    "jasmine": "^3.3.1",
+    "jasmine-allure-reporter": "^1.0.2",
+    "jasmine-data-provider": "^2.2.0",
+    "jasmine-reporters": "^2.3.2",
+    "jasmine2-protractor-utils": "^1.3.0",
+    "nodemailer": "^5.1.1",
+    "protractor": "^5.4.2",
+    "protractor-html-reporter-2": "^1.0.4",
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "winston": "^3.2.1",
+    "xlsx": "^0.14.1",
+    "xoauth2": "^1.2.0"
+  },
+  "devDependencies": {
+    "protractor-beautiful-reporter": "^1.2.7"
+  },
+  "scripts": {
+    "test": "protractor conf.js",
+    "report": "allure generate allure-results --clean -o allure-report || true"
+  },
+  "keywords": [
+    "protractornew"
+  ],
+  "author": "prakash",
+  "license": "ISC"
+}

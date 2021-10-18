@@ -1,0 +1,59 @@
+{
+
+    "testSiteUrl": "https://candidatex:qa-is-cool@qa-task.backbasecloud.com/",
+
+    "locators":{
+
+        "signupPage":{
+            "signup_xpath":"//a[contains(text(), 'Sign up')]",
+            "userName_xpath":"//input[@formcontrolname='username']",
+            "email_xpath":"//input[@formcontrolname='email']",
+            "password_xpath":"//input[@formcontrolname='password']", 
+            "SignUpButton_xpath":"//button[contains(text(), 'Sign up')]"
+        },
+        "logoutPage":{
+            "settings_Xpath":"//ul[@class='nav navbar-nav pull-xs-right']/li[3]/a",
+            "logout_Xpath":"//button[@class='btn btn-outline-danger']"
+        },
+        "signinPage":{
+            "signin_xpath":"//a[contains(text(), 'Sign in')]",
+            "SigninButton_xpath":"//button[contains(text(), 'Sign in')]",
+            "pagination_Xpath":"//ul[@class='pagination']/li"
+        },
+        "newArticle":{
+            "newArtcile_Xpath":"//ul[@class='nav navbar-nav pull-xs-right']/li[2]/a/i",
+            "articleTitle_Xpath":"//input[@formcontrolname='title']",
+            "articleAbout_Xpath":"//input[@formcontrolname='description']",
+            "writeYourarticle_Xpath":"//textarea[@formcontrolname='body']",
+            "tags_Xpath":"//input[@placeholder='Enter tags']",
+            "publishArticle_Xpath":"//button[contains(text(), 'Publish Article')]"
+        },
+        "favorite":{
+            "home_Xpath":"//a[contains(text(), 'Home')]",
+            "globalFeed_Xpath":"//a[contains(text(),'Global Feed')]",
+            "article_xpath":"//app-article-preview[3]/div/app-article-meta/div/div/a",
+            "favorite_icon_Xpath":"//i[@class='ion-heart']",
+            "header_Xpath":"//a[@class='preview-link']/h1"
+        },
+        "followArticle":{
+            "followArticle_button_Xpath":"//button[@class='btn btn-sm action-btn btn-outline-secondary']"
+        }
+    },
+    "testData":{
+
+        "signUpPage":{
+            "userName":"jhonjames",
+            "email": "johnsontestemail@mail.com",
+            "password":"test123"
+        },
+
+        "newArticle":{
+            "articleTitle":"Test New Articles",
+            "articleAbout":"About Automation",
+            "writeYourArticle":"Automation test for article",
+            "enterTags":"Automation"
+        }
+
+    }
+
+}
